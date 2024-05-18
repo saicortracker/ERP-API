@@ -1,0 +1,207 @@
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\appsettings.Development.json
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\appsettings.json
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\CrmContacts.exe
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\CrmContacts.deps.json
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\CrmContacts.runtimeconfig.json
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\CrmContacts.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\CrmContacts.pdb
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Humanizer.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CRM\CRM-\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.csproj.AssemblyReference.cache
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.AssemblyInfoInputs.cache
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.AssemblyInfo.cs
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.csproj.CoreCompileInputs.cache
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.MvcApplicationPartsAssemblyInfo.cs
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.MvcApplicationPartsAssemblyInfo.cache
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.sourcelink.json
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets.build.json
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets.development.json
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.CrmContacts.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.build.CrmContacts.props
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CrmContacts.props
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CrmContacts.props
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\staticwebassets.pack.json
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\scopedcss\bundle\CrmContacts.styles.css
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmConta.8EEFA4AA.Up2Date
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.dll
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\refint\CrmContacts.dll
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.pdb
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\CrmContacts.genruntimeconfig.cache
+D:\CRM\CRM-\CrmContacts\obj\Debug\net6.0\ref\CrmContacts.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\appsettings.Development.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\appsettings.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.exe
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.deps.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.runtimeconfig.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.pdb
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Humanizer.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.csproj.AssemblyReference.cache
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.GeneratedMSBuildEditorConfig.editorconfig
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.AssemblyInfoInputs.cache
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.AssemblyInfo.cs
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.csproj.CoreCompileInputs.cache
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.MvcApplicationPartsAssemblyInfo.cs
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.MvcApplicationPartsAssemblyInfo.cache
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.sourcelink.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets.build.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets.development.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.CrmContacts.Microsoft.AspNetCore.StaticWebAssets.props
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.build.CrmContacts.props
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CrmContacts.props
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CrmContacts.props
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets.pack.json
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\scopedcss\bundle\CrmContacts.styles.css
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmConta.8EEFA4AA.Up2Date
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\refint\CrmContacts.dll
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.pdb
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.genruntimeconfig.cache
+C:\cordocuments\new 361\NEW CRM\CRMAPI\CrmContacts\obj\Debug\net6.0\ref\CrmContacts.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\appsettings.Development.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\appsettings.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.exe
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.deps.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.runtimeconfig.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\CrmContacts.pdb
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Humanizer.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.csproj.AssemblyReference.cache
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.AssemblyInfoInputs.cache
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.AssemblyInfo.cs
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.csproj.CoreCompileInputs.cache
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.MvcApplicationPartsAssemblyInfo.cs
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.sourcelink.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets.build.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets.development.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.CrmContacts.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.build.CrmContacts.props
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CrmContacts.props
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CrmContacts.props
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\scopedcss\bundle\CrmContacts.styles.css
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmConta.8EEFA4AA.Up2Date
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\refint\CrmContacts.dll
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.pdb
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\CrmContacts.genruntimeconfig.cache
+D:\Angular Notes\CRMAPI\CRMAPI\CrmContacts\obj\Debug\net6.0\ref\CrmContacts.dll
