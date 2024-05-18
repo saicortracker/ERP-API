@@ -1,0 +1,6 @@
+@CrmModule_HostAddress = http://localhost:5216
+
+GET {{CrmModule_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
