@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CrmContacts.Models
+namespace ERP.Models
 {
     public partial class Company
     {

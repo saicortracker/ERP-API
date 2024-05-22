@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "mld7u7GgXg7hVJ335C2bPeduKvzgwNDuaKdwwym+Azg=",
-  "Source": "CrmContacts",
-  "BasePath": "_content/CrmContacts",
+  "Hash": "k700GoRboNSlm1pznPCzwDshpJJib9Brx9kCVivQDP8=",
+  "Source": "ERP",
+  "BasePath": "_content/ERP",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

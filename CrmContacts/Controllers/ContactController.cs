@@ -1,4 +1,4 @@
-﻿using CrmContacts.Models;
+﻿using ERP.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,9 +10,9 @@ namespace CrmContacts.Controllers
     [ApiController]
     public class ContactController : ControllerBase
     {
-        private readonly ARBAAZContext _crmContext;
+        private readonly ERPContext _crmContext;
 
-        public ContactController(ARBAAZContext crmContext)
+        public ContactController(ERPContext crmContext)
         {
            _crmContext = crmContext;
 
@@ -23,7 +23,21 @@ namespace CrmContacts.Controllers
         [Route("GetContactDetails")]
         public async Task<IActionResult> GetContactDetails()
         {
-            var contactDetails = await _crmContext.Contact.ToListAsync();
+            var contactDetails = await _crmContext.Contacts.ToListAsync();
+            return Ok(contactDetails);
+        }
+        [HttpGet]
+        [Route("GetGender")]
+        public async Task<IActionResult> GetGender()
+        {
+            var contactDetails = await _crmContext.Genders.ToListAsync();
+            return Ok(contactDetails);
+        }
+        [HttpGet]
+        [Route("GetCompanies")]
+        public async Task<IActionResult> GetCompanies()
+        {
+            var contactDetails = await _crmContext.Companies.Select(x=> new { x.CompanyName,x.Id }).ToListAsync();
             return Ok(contactDetails);
         }
 
@@ -32,7 +46,7 @@ namespace CrmContacts.Controllers
         [Route("GetContactDetailsbyid/{id}")]
         public async Task<IActionResult> GetContactDetails(int? id)
         {
-            var contactDetails = await _crmContext.Contact.Where(x => x.Id == id).FirstOrDefaultAsync();
+            var contactDetails = await _crmContext.Contacts.Where(x => x.Id == id).FirstOrDefaultAsync();
 
             return Ok(contactDetails);
         }
@@ -41,10 +55,10 @@ namespace CrmContacts.Controllers
         // Add Contact
         [HttpPost]
         [Route("AddContactDetails")]
-        public async Task<ContactDetail> AddContactDetail([FromBody] ContactDetail objContactDetail)
+        public async Task<Contact> AddContactDetail([FromBody] Contact objContactDetail)
         {
             
-            _crmContext.Contact.Add(objContactDetail);
+            _crmContext.Contacts.Add(objContactDetail);
             await _crmContext.SaveChangesAsync();
             return objContactDetail;
 
@@ -54,9 +68,9 @@ namespace CrmContacts.Controllers
         [HttpPut]
         [Route("UpdateContactDetails")]
 
-        public async Task<IActionResult> EditContactDetails([FromBody] ContactDetail contactDetails)
+        public async Task<IActionResult> EditContactDetails([FromBody] Contact contactDetails)
         {
-            var x = await _crmContext.Contact.FirstOrDefaultAsync(x => x.Id == contactDetails.Id);
+            var x = await _crmContext.Contacts.FirstOrDefaultAsync(x => x.Id == contactDetails.Id);
             if (x != null)
             {
                x.Email = contactDetails.Email;
@@ -77,6 +91,7 @@ namespace CrmContacts.Controllers
                 x.StreetAddress = contactDetails.StreetAddress;
                 x.TimeZone = contactDetails.TimeZone;   
                 x.WhatAppPhoneNumber = contactDetails.WhatAppPhoneNumber;
+                _crmContext.Contacts.Update(x);
                 await _crmContext.SaveChangesAsync();
                 return Ok(x);
             }
@@ -89,7 +104,7 @@ namespace CrmContacts.Controllers
 
         public async Task<IActionResult> DeleteContactDetails(int id)
         {
-            var existingContactDetails = await _crmContext.Contact.FirstOrDefaultAsync(x => x.Id == id);
+            var existingContactDetails = await _crmContext.Contacts.FirstOrDefaultAsync(x => x.Id == id);
             if (existingContactDetails != null)
             {
                 _crmContext.Remove(existingContactDetails);

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Angular Notes\\CRMAPI\\CRMAPI\\CrmContacts\\CrmContacts.csproj": {}
+    "C:\\Cortracker\\ERP\\API\\CrmContacts\\CrmContacts.csproj": {}
   },
   "projects": {
-    "D:\\Angular Notes\\CRMAPI\\CRMAPI\\CrmContacts\\CrmContacts.csproj": {
+    "C:\\Cortracker\\ERP\\API\\CrmContacts\\CrmContacts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular Notes\\CRMAPI\\CRMAPI\\CrmContacts\\CrmContacts.csproj",
+        "projectUniqueName": "C:\\Cortracker\\ERP\\API\\CrmContacts\\CrmContacts.csproj",
         "projectName": "CrmContacts",
-        "projectPath": "D:\\Angular Notes\\CRMAPI\\CRMAPI\\CrmContacts\\CrmContacts.csproj",
-        "packagesPath": "C:\\Users\\laksh\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular Notes\\CRMAPI\\CRMAPI\\CrmContacts\\obj\\",
+        "projectPath": "C:\\Cortracker\\ERP\\API\\CrmContacts\\CrmContacts.csproj",
+        "packagesPath": "C:\\Users\\Durga Prasad\\.nuget\\packages\\",
+        "outputPath": "C:\\Cortracker\\ERP\\API\\CrmContacts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\laksh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Durga Prasad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
