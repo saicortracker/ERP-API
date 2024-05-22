@@ -17,8 +17,10 @@ namespace ERP.Models
         }
 
         public virtual DbSet<Addlineitem> Addlineitems { get; set; } = null!;
+        public virtual DbSet<City> Cities { get; set; } = null!;
         public virtual DbSet<Company> Companies { get; set; } = null!;
         public virtual DbSet<Contact> Contacts { get; set; } = null!;
+        public virtual DbSet<Country> Countries { get; set; } = null!;
         public virtual DbSet<Deal> Deals { get; set; } = null!;
         public virtual DbSet<Dealowner> Dealowners { get; set; } = null!;
         public virtual DbSet<Dealstage> Dealstages { get; set; } = null!;
@@ -26,10 +28,13 @@ namespace ERP.Models
         public virtual DbSet<Department> Departments { get; set; } = null!;
         public virtual DbSet<Employee> Employees { get; set; } = null!;
         public virtual DbSet<Gender> Genders { get; set; } = null!;
+        public virtual DbSet<Industry> Industries { get; set; } = null!;
         public virtual DbSet<Lead> Leads { get; set; } = null!;
         public virtual DbSet<Location> Locations { get; set; } = null!;
         public virtual DbSet<Pipeline> Pipelines { get; set; } = null!;
         public virtual DbSet<Priority> Priorities { get; set; } = null!;
+        public virtual DbSet<State> States { get; set; } = null!;
+        public virtual DbSet<Timezone> Timezones { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -70,6 +75,33 @@ namespace ERP.Models
                 entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
             });
 
+            modelBuilder.Entity<City>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("City", "Crm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
             modelBuilder.Entity<Company>(entity =>
             {
                 entity.ToTable("Companies", "Crm");
@@ -78,10 +110,7 @@ namespace ERP.Models
 
                 entity.Property(e => e.AnnualRevenue).HasColumnName("annual_revenue");
 
-                entity.Property(e => e.City)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("city");
+                entity.Property(e => e.City).HasColumnName("city");
 
                 entity.Property(e => e.CompanyName)
                     .HasMaxLength(200)
@@ -93,10 +122,14 @@ namespace ERP.Models
                     .IsUnicode(false)
                     .HasColumnName("company_owner");
 
+                entity.Property(e => e.Country).HasColumnName("country");
+
                 entity.Property(e => e.Discription)
                     .HasMaxLength(200)
                     .IsUnicode(false)
                     .HasColumnName("discription");
+
+                entity.Property(e => e.IndustryType).HasColumnName("industryType");
 
                 entity.Property(e => e.LinkedinCompanyPage)
                     .HasMaxLength(200)
@@ -107,15 +140,9 @@ namespace ERP.Models
 
                 entity.Property(e => e.PostalCode).HasColumnName("postal_code");
 
-                entity.Property(e => e.RegionState)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("region_state");
+                entity.Property(e => e.RegionState).HasColumnName("region_state");
 
-                entity.Property(e => e.TimeZone)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("time_zone");
+                entity.Property(e => e.TimeZone).HasColumnName("time_zone");
 
                 entity.Property(e => e.Type)
                     .HasMaxLength(200)
@@ -127,10 +154,7 @@ namespace ERP.Models
             {
                 entity.ToTable("Contact", "Crm");
 
-                entity.Property(e => e.City)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("city");
+                entity.Property(e => e.City).HasColumnName("city");
 
                 entity.Property(e => e.CompanyName)
                     .HasMaxLength(200)
@@ -142,10 +166,7 @@ namespace ERP.Models
                     .IsUnicode(false)
                     .HasColumnName("contactOwner");
 
-                entity.Property(e => e.CountryRegion)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("country_Region");
+                entity.Property(e => e.CountryRegion).HasColumnName("country_Region");
 
                 entity.Property(e => e.Email)
                     .HasMaxLength(255)
@@ -157,10 +178,7 @@ namespace ERP.Models
                     .IsUnicode(false)
                     .HasColumnName("firstName");
 
-                entity.Property(e => e.Industry)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("industry");
+                entity.Property(e => e.Industry).HasColumnName("industry");
 
                 entity.Property(e => e.JobTitle)
                     .HasMaxLength(200)
@@ -172,10 +190,7 @@ namespace ERP.Models
                     .IsUnicode(false)
                     .HasColumnName("lastName");
 
-                entity.Property(e => e.LeadStatus)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("leadStatus");
+                entity.Property(e => e.LeadStatus).HasColumnName("leadStatus");
 
                 entity.Property(e => e.LifeCycleStage)
                     .HasMaxLength(200)
@@ -190,20 +205,42 @@ namespace ERP.Models
 
                 entity.Property(e => e.PoastalCode).HasColumnName("poastal_Code");
 
-                entity.Property(e => e.StateRegion)
-                    .HasMaxLength(200)
-                    .IsUnicode(false)
-                    .HasColumnName("state_Region");
+                entity.Property(e => e.StateRegion).HasColumnName("state_Region");
 
                 entity.Property(e => e.StreetAddress)
                     .HasMaxLength(200)
                     .HasColumnName("streetAddress");
 
-                entity.Property(e => e.TimeZone)
-                    .HasMaxLength(200)
-                    .HasColumnName("timeZone");
+                entity.Property(e => e.TimeZone).HasColumnName("timeZone");
 
                 entity.Property(e => e.WhatAppPhoneNumber).HasColumnName("whatApp_PhoneNumber");
+            });
+
+            modelBuilder.Entity<Country>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("Country", "Crm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
             });
 
             modelBuilder.Entity<Deal>(entity =>
@@ -403,6 +440,33 @@ namespace ERP.Models
                 entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
             });
 
+            modelBuilder.Entity<Industry>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("Industry", "Crm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
             modelBuilder.Entity<Lead>(entity =>
             {
                 entity.ToTable("Leads", "Crm");
@@ -536,6 +600,60 @@ namespace ERP.Models
                 entity.HasNoKey();
 
                 entity.ToTable("Priority", "Crm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
+            modelBuilder.Entity<State>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("State", "Crm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
+            modelBuilder.Entity<Timezone>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("Timezone", "Crm");
 
                 entity.Property(e => e.CreatedAt)
                     .HasColumnType("datetime")

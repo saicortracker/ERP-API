@@ -1,6 +1,7 @@
 ﻿using ERP.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.EntityFrameworkCore;
 
 namespace CrmContacts.Controllers
@@ -28,6 +29,14 @@ namespace CrmContacts.Controllers
         {
             var companies = await CrmContextDbContext.Companies.ToListAsync();
             return Ok(companies);
+        }
+
+        [HttpGet]
+        [Route("GetCity")]
+        public async Task<IActionResult> GetCity()
+        {
+            var cityDetails = await CrmContextDbContext.Cities.ToListAsync();
+            return Ok(cityDetails);
         }
 
 
