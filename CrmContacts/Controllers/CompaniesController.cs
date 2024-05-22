@@ -62,6 +62,22 @@ namespace CrmContacts.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("Bulkupload")]
+        public async Task<IActionResult> Bulkupload([FromBody] List<Company> companies)
+        {
+            try
+            {
+                CrmContextDbContext.Companies.AddRange(companies);
+                await CrmContextDbContext.SaveChangesAsync();
+                return Ok(companies);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An error occurred while saving the companies.");
+            }
+        }
+
 
         // Update/Edit Company
         [HttpPut]
