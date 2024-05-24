@@ -13,17 +13,17 @@ namespace ERP.Models
         public string JobTitle { get; set; } = null!;
         public int PhoneNumber { get; set; }
         public string LifeCycleStage { get; set; } = null!;
-        public string LeadStatus { get; set; } = null!;
-        public string City { get; set; } = null!;
+        public int LeadStatus { get; set; }
+        public int? City { get; set; }
         public string? CompanyName { get; set; }
-        public string? CountryRegion { get; set; }
-        public string? Industry { get; set; }
+        public int? CountryRegion { get; set; }
+        public int? Industry { get; set; }
         public int MobilePhoneNumber { get; set; }
         public int NumberOfEmployees { get; set; }
         public int PoastalCode { get; set; }
-        public string? StateRegion { get; set; }
+        public int? StateRegion { get; set; }
         public string? StreetAddress { get; set; }
-        public string? TimeZone { get; set; }
+        public int? TimeZone { get; set; }
         public int WhatAppPhoneNumber { get; set; }
     }
 }

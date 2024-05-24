@@ -203,3 +203,141 @@ D:\Angular Notes\ERP-CRM\ERP-Api\CrmContacts\obj\Debug\net6.0\refint\ERP.dll
 D:\Angular Notes\ERP-CRM\ERP-Api\CrmContacts\obj\Debug\net6.0\ERP.pdb
 D:\Angular Notes\ERP-CRM\ERP-Api\CrmContacts\obj\Debug\net6.0\ERP.genruntimeconfig.cache
 D:\Angular Notes\ERP-CRM\ERP-Api\CrmContacts\obj\Debug\net6.0\ref\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\appsettings.Development.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\appsettings.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.exe
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.deps.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.runtimeconfig.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.pdb
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Humanizer.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.csproj.AssemblyReference.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.AssemblyInfoInputs.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.AssemblyInfo.cs
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.csproj.CoreCompileInputs.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.MvcApplicationPartsAssemblyInfo.cs
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.sourcelink.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets.build.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets.development.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.ERP.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.build.ERP.props
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ERP.props
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ERP.props
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\scopedcss\bundle\ERP.styles.css
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.csproj.Up2Date
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\refint\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.pdb
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.genruntimeconfig.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\ERP-API\CrmContacts\obj\Debug\net6.0\ref\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\appsettings.Development.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\appsettings.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.exe
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.deps.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.runtimeconfig.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\ERP.pdb
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Humanizer.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.csproj.AssemblyReference.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.AssemblyInfoInputs.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.AssemblyInfo.cs
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.csproj.CoreCompileInputs.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.MvcApplicationPartsAssemblyInfo.cs
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.sourcelink.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets.build.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets.development.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.ERP.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.build.ERP.props
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ERP.props
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ERP.props
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\scopedcss\bundle\ERP.styles.css
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.csproj.Up2Date
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\refint\ERP.dll
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.pdb
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ERP.genruntimeconfig.cache
+D:\Angular Notes\ERP-CRM\_ERP_API\NEW 2405\ERP-API\CrmContacts\obj\Debug\net6.0\ref\ERP.dll

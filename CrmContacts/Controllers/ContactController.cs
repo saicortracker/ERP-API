@@ -41,6 +41,55 @@ namespace CrmContacts.Controllers
             return Ok(contactDetails);
         }
 
+        [HttpGet]
+        [Route("GetCity")]
+        public async Task<IActionResult> GetCity()
+        {
+            var cityDetails = await _crmContext.Cities.ToListAsync();
+            return Ok(cityDetails);
+        }
+
+        [HttpGet]
+        [Route("GetState")]
+        public async Task<IActionResult> GetState()
+        {
+            var stateDetails = await _crmContext.States.ToListAsync();
+            return Ok(stateDetails);
+        }
+
+        [HttpGet]
+        [Route("GetCountry")]
+        public async Task<IActionResult> GetCountry()
+        {
+            var countryDetails = await _crmContext.Countries.ToListAsync();
+            return Ok(countryDetails);
+        }
+
+        [HttpGet]
+        [Route("GetIndustry")]
+        public async Task<IActionResult> GetIndustry()
+        {
+            var industryDetails = await _crmContext.Industries.ToListAsync();
+            return Ok(industryDetails);
+        }
+
+        [HttpGet]
+        [Route("GetTimezone")]
+        public async Task<IActionResult> GetTimezone()
+        {
+            var timezoneDetails = await _crmContext.Timezones.ToListAsync();
+            return Ok(timezoneDetails);
+        }
+
+        [HttpGet]
+        [Route("GetLeadstatus")]
+        public async Task<IActionResult> GetLeadstatus()
+        {
+            var leadstatusDetails = await _crmContext.Leads.Select(x => new { x.LeadStatus, x.Id }).ToListAsync();
+            return Ok(leadstatusDetails);
+        }
+
+
         // Get Contact By Id 
         [HttpGet]
         [Route("GetContactDetailsbyid/{id}")]

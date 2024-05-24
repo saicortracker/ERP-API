@@ -10,16 +10,19 @@ namespace ERP.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private readonly ERPContext _appDBContext;
-        public LoginController(ERPContext eRPContext)
+        private readonly ERPContext _crmContext;
+
+        public LoginController(ERPContext crmContext)
         {
-            _appDBContext = eRPContext;
+            _crmContext = crmContext;
+
         }
+
         [HttpPost]
         [Route("authenticate")]
         public usersDto authenticate(authenticateRequestModel model)
         {
-            var user = _appDBContext.Users.Where(a => a.UserName == model.Username && a.Password == model.Password).FirstOrDefault();
+            var user = _crmContext.Users.Where(a => a.UserName == model.Username && a.Password == model.Password).FirstOrDefault();
             if (user != null)
             {
                 return new usersDto
