@@ -32,10 +32,17 @@ namespace ERP.Models
         public virtual DbSet<Lead> Leads { get; set; } = null!;
         public virtual DbSet<LeadSource> LeadSources { get; set; } = null!;
         public virtual DbSet<LeadStatus> LeadStatuses { get; set; } = null!;
+        public virtual DbSet<Leaf> Leaves { get; set; } = null!;
+        public virtual DbSet<LeaveType> LeaveTypes { get; set; } = null!;
         public virtual DbSet<Location> Locations { get; set; } = null!;
         public virtual DbSet<Pipeline> Pipelines { get; set; } = null!;
         public virtual DbSet<Priority> Priorities { get; set; } = null!;
+        public virtual DbSet<Source> Sources { get; set; } = null!;
         public virtual DbSet<State> States { get; set; } = null!;
+        public virtual DbSet<Status> Statuses { get; set; } = null!;
+        public virtual DbSet<Ticket> Tickets { get; set; } = null!;
+        public virtual DbSet<Ticketowner> Ticketowners { get; set; } = null!;
+        public virtual DbSet<Ticketstatus> Ticketstatuses { get; set; } = null!;
         public virtual DbSet<Timezone> Timezones { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
@@ -589,6 +596,87 @@ namespace ERP.Models
                     .HasColumnName("modified_date");
             });
 
+            modelBuilder.Entity<Leaf>(entity =>
+            {
+                entity.ToTable("Leaves", "Hrm");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.BalanceLeaves).HasColumnName("Balance_Leaves");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Duration)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.EmployeeId).HasColumnName("Employee_Id");
+
+                entity.Property(e => e.EndDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("End_Date");
+
+                entity.Property(e => e.FileName)
+                    .HasMaxLength(200)
+                    .IsUnicode(false)
+                    .HasColumnName("file_name");
+
+                entity.Property(e => e.GuidFilename)
+                    .HasMaxLength(200)
+                    .IsUnicode(false)
+                    .HasColumnName("guid_filename");
+
+                entity.Property(e => e.LeaveType).HasColumnName("Leave_Type");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+
+                entity.Property(e => e.Remarks)
+                    .HasMaxLength(500)
+                    .IsUnicode(false)
+                    .HasColumnName("remarks");
+
+                entity.Property(e => e.ReportingManager).HasColumnName("reporting_manager");
+
+                entity.Property(e => e.StartDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("Start_Date");
+            });
+
+            modelBuilder.Entity<LeaveType>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("Leave_type", "Hrm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
             modelBuilder.Entity<Location>(entity =>
             {
                 entity.HasNoKey();
@@ -670,6 +758,27 @@ namespace ERP.Models
                 entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
             });
 
+            modelBuilder.Entity<Source>(entity =>
+            {
+                entity.ToTable("source", "Crm");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_date");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+
+                entity.Property(e => e.ModifiedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_date");
+            });
+
             modelBuilder.Entity<State>(entity =>
             {
                 entity.HasNoKey();
@@ -695,6 +804,90 @@ namespace ERP.Models
                     .HasColumnName("modified_at");
 
                 entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
+            modelBuilder.Entity<Status>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("Status", "Hrm");
+
+                entity.Property(e => e.CreatedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_at");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.ModifiedAt)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_at");
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+            });
+
+            modelBuilder.Entity<Ticket>(entity =>
+            {
+                entity.ToTable("Tickets", "Crm");
+
+                entity.Property(e => e.Createdate).HasColumnType("datetime");
+
+                entity.Property(e => e.Ticketdescription)
+                    .HasMaxLength(200)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Ticketname)
+                    .HasMaxLength(200)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Ticketowner>(entity =>
+            {
+                entity.ToTable("ticketowner", "Crm");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_date");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+
+                entity.Property(e => e.ModifiedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_date");
+            });
+
+            modelBuilder.Entity<Ticketstatus>(entity =>
+            {
+                entity.ToTable("ticketstatus", "Crm");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_date");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+
+                entity.Property(e => e.ModifiedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_date");
             });
 
             modelBuilder.Entity<Timezone>(entity =>

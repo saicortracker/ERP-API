@@ -10,15 +10,11 @@ namespace CrmContacts.Controllers
     [ApiController]
     public class CompaniesController : ControllerBase
     {
-        private Company company;
-        private ERPContext CrmContextDbContext;
-        private object GetCompany;
-        private object? existingCompany;
-
-
-        public CompaniesController(ERPContext _crmContextDbcontext)
+        private readonly ERPContext _crmContext;
+        public CompaniesController(ERPContext crmContext)
         {
-            CrmContextDbContext = _crmContextDbcontext;
+            _crmContext = crmContext;
+
         }
 
 
@@ -27,7 +23,7 @@ namespace CrmContacts.Controllers
         [Route("GetCompanies")]
         public async Task<IActionResult> GetAllCompanies()
         {
-            var companies = await CrmContextDbContext.Companies.ToListAsync();
+            var companies = await _crmContext.Companies.ToListAsync();
             return Ok(companies);
         }
 
@@ -35,7 +31,7 @@ namespace CrmContacts.Controllers
         [Route("GetCity")]
         public async Task<IActionResult> GetCity()
         {
-            var cityDetails = await CrmContextDbContext.Cities.ToListAsync();
+            var cityDetails = await _crmContext.Cities.ToListAsync();
             return Ok(cityDetails);
         }
 
@@ -43,7 +39,7 @@ namespace CrmContacts.Controllers
         [Route("GetState")]
         public async Task<IActionResult> GetState()
         {
-            var stateDetails = await CrmContextDbContext.States.ToListAsync();
+            var stateDetails = await _crmContext.States.ToListAsync();
             return Ok(stateDetails);
         }
 
@@ -51,7 +47,7 @@ namespace CrmContacts.Controllers
         [Route("GetCountry")]
         public async Task<IActionResult> GetCountry()
         {
-            var countryDetails = await CrmContextDbContext.Countries.ToListAsync();
+            var countryDetails = await _crmContext.Countries.ToListAsync();
             return Ok(countryDetails);
         }
 
@@ -59,7 +55,7 @@ namespace CrmContacts.Controllers
         [Route("GetIndustry")]
         public async Task<IActionResult> GetIndustry()
         {
-            var industryDetails = await CrmContextDbContext.Industries.ToListAsync();
+            var industryDetails = await _crmContext.Industries.ToListAsync();
             return Ok(industryDetails);
         }
 
@@ -67,7 +63,7 @@ namespace CrmContacts.Controllers
         [Route("GetTimezone")]
         public async Task<IActionResult> GetTimezone()
         {
-            var timezoneDetails = await CrmContextDbContext.Timezones.ToListAsync();
+            var timezoneDetails = await _crmContext.Timezones.ToListAsync();
             return Ok(timezoneDetails);
         }
 
@@ -76,7 +72,7 @@ namespace CrmContacts.Controllers
         [Route("GetCompaniesbyid")]
         public async Task<IActionResult> GetAllCompanies(int? Id)
         {
-            var companies = await CrmContextDbContext.Companies.Where(x => x.Id == Id).FirstOrDefaultAsync();
+            var companies = await _crmContext.Companies.Where(x => x.Id == Id).FirstOrDefaultAsync();
 
             return Ok(companies);
         }
@@ -92,8 +88,8 @@ namespace CrmContacts.Controllers
         {
             try
             {
-                CrmContextDbContext.Companies.Add(objCompany);
-                await CrmContextDbContext.SaveChangesAsync();
+                _crmContext.Companies.Add(objCompany);
+                await _crmContext.SaveChangesAsync();
                 return objCompany;
             }
             catch (Exception ex)
@@ -108,8 +104,8 @@ namespace CrmContacts.Controllers
         {
             try
             {
-                CrmContextDbContext.Companies.AddRange(companies);
-                await CrmContextDbContext.SaveChangesAsync();
+                _crmContext.Companies.AddRange(companies);
+                await _crmContext.SaveChangesAsync();
 
                 var res = new Response
                 {
@@ -138,7 +134,7 @@ namespace CrmContacts.Controllers
 
         public async Task<IActionResult> EditCompany([FromBody] Company company)
         {
-            var x = await CrmContextDbContext.Companies.FirstOrDefaultAsync(x => x.Id == company.Id);
+            var x = await _crmContext.Companies.FirstOrDefaultAsync(x => x.Id == company.Id);
             if (x != null)
             {
                 x.CompanyName = company.CompanyName;
@@ -152,7 +148,7 @@ namespace CrmContacts.Controllers
                 x.TimeZone = company.TimeZone;
                 x.Discription = company.Discription;
                 x.LinkedinCompanyPage = company.LinkedinCompanyPage;
-                await CrmContextDbContext.SaveChangesAsync();
+                await _crmContext.SaveChangesAsync();
                 return Ok(x);
             }
             return NotFound("Company is not found");
@@ -169,11 +165,11 @@ namespace CrmContacts.Controllers
 
         public async Task<IActionResult> DeleteCompanies(int id)
         {
-            var existingComapny = await CrmContextDbContext.Companies.FirstOrDefaultAsync(x => x.Id == id);
+            var existingComapny = await _crmContext.Companies.FirstOrDefaultAsync(x => x.Id == id);
             if (existingComapny != null)
             {
-                CrmContextDbContext.Remove(existingComapny);
-                await CrmContextDbContext.SaveChangesAsync();
+                _crmContext.Remove(existingComapny);
+                await _crmContext.SaveChangesAsync();
                 return Ok(existingComapny);
             }
             return NotFound("Company is not found");

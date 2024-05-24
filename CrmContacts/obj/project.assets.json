@@ -2444,11 +2444,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\ERP.csproj",
+      "projectUniqueName": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\NEW 2405\\ERP-API\\CrmContacts\\ERP.csproj",
       "projectName": "ERP",
-      "projectPath": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\ERP.csproj",
+      "projectPath": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\NEW 2405\\ERP-API\\CrmContacts\\ERP.csproj",
       "packagesPath": "C:\\Users\\laksh\\.nuget\\packages\\",
-      "outputPath": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\obj\\",
+      "outputPath": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\NEW 2405\\ERP-API\\CrmContacts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\laksh\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,5 @@
-﻿using ERP.Models;
+﻿using ERP.Dto;
+using ERP.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,13 +18,30 @@ namespace ERP.Controllers
 
         }
         //Get All Contacts
-        [HttpGet]
-        [Route("GetDeals")]
-        public async Task<IActionResult> GetDeals()
-        {
-            var dealDetails = await _crmContext.Deals.ToListAsync();
-            return Ok(dealDetails);
-        }
+        //[HttpGet]
+        //[Route("GetDeals")]
+        //public async Task<JsonResult> GetDeals()
+        //{
+        //    var leadDetails = (from l in _crmContext.Deals
+        //                       join e in _crmContext.Employees
+        //                       on l.Dealowner equals e.Id
+        //                       select new LeadDtocs
+        //                       {
+        //                           Dealname = l.Dealname,
+        //                           FirstName = l.FirstName,
+        //                           LastName = l.LastName,
+        //                           Title = l.Title,
+        //                           Email = l.Email,
+        //                           Phonenumber = l.Phonenumber,
+        //                           leadsourcename = l.LeadSource != null ? _crmContext.LeadSources.Where(y => y.Id == l.LeadSource).FirstOrDefault().Description : null,
+        //                           leadstatusname = l.LeadStatus != null ? _crmContext.LeadStatuses.Where(y => y.Id == l.LeadStatus).FirstOrDefault().Description : null,
+        //                           Rating = l.Rating
+
+        //                       }).ToListAsync();
+
+        //    return new JsonResult(leadDetails.Result.ToList());
+            
+        //}
 
         [HttpGet]
         [Route("GetLeadOwner")]

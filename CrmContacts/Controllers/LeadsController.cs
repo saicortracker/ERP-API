@@ -34,12 +34,11 @@ namespace ERP.Controllers
                                    Email=l.Email,
                                    Phonenumber=l.Phonenumber,
                                    leadsourcename=l.LeadSource!=null? _crmContext.LeadSources.Where(y=>y.Id==l.LeadSource).FirstOrDefault().Description:null,
-                                   leadstatusname=l.LeadStatus!=null?_crmContext.LeadStatuses.Where(y=>y.Id==l.LeadStatus).FirstOrDefault().Description:null
+                                   leadstatusname=l.LeadStatus!=null?_crmContext.LeadStatuses.Where(y=>y.Id==l.LeadStatus).FirstOrDefault().Description:null,
+                                   Rating=l.Rating
 
                                }).ToListAsync() ;
-                
-            //var lead=    await _crmContext.Leads.ToListAsync();
-            return new JsonResult(leadDetails.Result.ToList());
+                       return new JsonResult(leadDetails.Result.ToList());
         }
 
         [HttpGet]
