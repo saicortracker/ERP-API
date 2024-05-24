@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\crmcontacts\\models\\erpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|solutionrelative:crmcontacts\\models\\erpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|d:\\angular notes\\erp-crm\\_erp_api\\erp-api\\crmcontacts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|solutionrelative:crmcontacts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|d:\\angular notes\\erp-crm\\_erp_api\\erp-api\\crmcontacts\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|solutionrelative:crmcontacts\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\crmcontacts\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|solutionrelative:crmcontacts\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\crmcontacts\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80698B02-09D9-4F81-8034-01819B7AB377}|CrmContacts\\ERP.csproj|solutionrelative:crmcontacts\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\StartUp.cs",
+              "RelativeDocumentMoniker": "CrmContacts\\StartUp.cs",
+              "ToolTip": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\StartUp.cs",
+              "RelativeToolTip": "CrmContacts\\StartUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:39:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ERPContext.cs",
+              "DocumentMoniker": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\Models\\ERPContext.cs",
+              "RelativeDocumentMoniker": "CrmContacts\\Models\\ERPContext.cs",
+              "ToolTip": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\Models\\ERPContext.cs",
+              "RelativeToolTip": "CrmContacts\\Models\\ERPContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA6wCwAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:14:09.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\appsettings.json",
+              "RelativeDocumentMoniker": "CrmContacts\\appsettings.json",
+              "ToolTip": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\appsettings.json",
+              "RelativeToolTip": "CrmContacts\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T11:11:24.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CrmContacts\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CrmContacts\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:23:58.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "CrmContacts\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Angular Notes\\ERP-CRM\\_ERP_API\\ERP-API\\CrmContacts\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "CrmContacts\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:38:41.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
