@@ -26,6 +26,14 @@ namespace ERP.Controllers
         }
 
         [HttpGet]
+        [Route("GetLeadOwner")]
+        public async Task<IActionResult> GetLeadOwner()
+        {
+            var leadDetails = await _crmContext.Leads.Select( x => new {x.LeadOwner, x.Id}).ToListAsync();
+            return Ok(leadDetails);
+        }
+
+        [HttpGet]
         [Route("GetPipeline")]
         public async Task<IActionResult> GetPipeline()
         {

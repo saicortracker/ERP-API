@@ -30,6 +30,8 @@ namespace ERP.Models
         public virtual DbSet<Gender> Genders { get; set; } = null!;
         public virtual DbSet<Industry> Industries { get; set; } = null!;
         public virtual DbSet<Lead> Leads { get; set; } = null!;
+        public virtual DbSet<LeadSource> LeadSources { get; set; } = null!;
+        public virtual DbSet<LeadStatus> LeadStatuses { get; set; } = null!;
         public virtual DbSet<Location> Locations { get; set; } = null!;
         public virtual DbSet<Pipeline> Pipelines { get; set; } = null!;
         public virtual DbSet<Priority> Priorities { get; set; } = null!;
@@ -539,6 +541,52 @@ namespace ERP.Models
                     .HasMaxLength(200)
                     .IsUnicode(false)
                     .HasColumnName("website");
+            });
+
+            modelBuilder.Entity<LeadSource>(entity =>
+            {
+                entity.ToTable("leadSource", "Crm");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_date");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+
+                entity.Property(e => e.ModifiedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_date");
+            });
+
+            modelBuilder.Entity<LeadStatus>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("leadStatus", "Crm");
+
+                entity.Property(e => e.CreatedBy).HasColumnName("created_by");
+
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("created_date");
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
+
+                entity.Property(e => e.ModifiedBy).HasColumnName("modified_by");
+
+                entity.Property(e => e.ModifiedDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("modified_date");
             });
 
             modelBuilder.Entity<Location>(entity =>
