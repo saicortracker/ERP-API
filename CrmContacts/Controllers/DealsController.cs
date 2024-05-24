@@ -24,6 +24,64 @@ namespace ERP.Controllers
             var dealDetails = await _crmContext.Deals.ToListAsync();
             return Ok(dealDetails);
         }
+
+        [HttpGet]
+        [Route("GetPipeline")]
+        public async Task<IActionResult> GetPipeline()
+        {
+            var pipelineDetails = await _crmContext.Pipelines.ToListAsync();
+            return Ok(pipelineDetails);
+        }
+
+        [HttpGet]
+        [Route("GetContact")]
+        public async Task<IActionResult> GetContact()
+        {
+            var contactDetails = await _crmContext.Contacts.Select(x => new { x.ContactOwner, x.Id }).ToListAsync();
+            return Ok(contactDetails);
+        }
+
+
+        [HttpGet]
+        [Route("GetPriority")]
+        public async Task<IActionResult> GetPriority()
+        {
+            var priorityDetails = await _crmContext.Priorities.ToListAsync();
+            return Ok(priorityDetails);
+        }
+
+        [HttpGet]
+        [Route("GetDealtype")]
+        public async Task<IActionResult> GetDealtype()
+        {
+            var dealtypeDetails = await _crmContext.Dealtypes.ToListAsync();
+            return Ok(dealtypeDetails);
+        }
+
+        [HttpGet]
+        [Route("GetDealowner")]
+        public async Task<IActionResult> GetDealowner()
+        {
+            var dealownerDetails = await _crmContext.Dealowners.ToListAsync();
+            return Ok(dealownerDetails);
+        }
+
+        [HttpGet]
+        [Route("GetDealstage")]
+        public async Task<IActionResult> GetDealstage()
+        {
+            var dealstageDetails = await _crmContext.Dealstages.ToListAsync();
+            return Ok(dealstageDetails);
+        }
+
+        [HttpGet]
+        [Route("GetLineitem")]
+        public async Task<IActionResult> GetLineitem()
+        {
+            var lineitemDetails = await _crmContext.Addlineitems.ToListAsync();
+            return Ok(lineitemDetails);
+        }
+
         // Get Contact By Id 
         [HttpGet]
         [Route("GetDealDetailsbyid/{id}")]
