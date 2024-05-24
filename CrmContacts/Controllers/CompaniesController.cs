@@ -39,6 +39,37 @@ namespace CrmContacts.Controllers
             return Ok(cityDetails);
         }
 
+        [HttpGet]
+        [Route("GetState")]
+        public async Task<IActionResult> GetState()
+        {
+            var stateDetails = await CrmContextDbContext.States.ToListAsync();
+            return Ok(stateDetails);
+        }
+
+        [HttpGet]
+        [Route("GetCountry")]
+        public async Task<IActionResult> GetCountry()
+        {
+            var countryDetails = await CrmContextDbContext.Countries.ToListAsync();
+            return Ok(countryDetails);
+        }
+
+        [HttpGet]
+        [Route("GetIndustry")]
+        public async Task<IActionResult> GetIndustry()
+        {
+            var industryDetails = await CrmContextDbContext.Industries.ToListAsync();
+            return Ok(industryDetails);
+        }
+
+        [HttpGet]
+        [Route("GetTimezone")]
+        public async Task<IActionResult> GetTimezone()
+        {
+            var timezoneDetails = await CrmContextDbContext.Timezones.ToListAsync();
+            return Ok(timezoneDetails);
+        }
 
         // Get Company By Id 
         [HttpGet]
@@ -79,11 +110,24 @@ namespace CrmContacts.Controllers
             {
                 CrmContextDbContext.Companies.AddRange(companies);
                 await CrmContextDbContext.SaveChangesAsync();
-                return Ok(companies);
+
+                var res = new Response
+                {
+                    Message = "Data updated successfully",
+                    Status = true,
+                    Data = companies
+                };
+                return Ok(res);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "An error occurred while saving the companies.");
+                var res = new Response
+                {
+                    Message = "An error occurred while saving the companies.",
+                    Status = false,
+                    Data = ex
+                };
+                return Ok(res);
             }
         }
 
